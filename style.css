@@ -1,0 +1,62 @@
+body {
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+    color: brown;
+}
+
+.navbar{
+    border: whitesmoke;
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+  padding: 15px;
+}
+
+/* .nav_placeholder{
+} */
+
+.searchbox {
+  padding: 15px;
+  margin: auto 0;
+  align-items: center;
+}
+
+input[type=text] {
+  /* make the input as big as possible (until hit max width) */
+  height: 50px;
+  box-sizing: border-box;
+  border: none;
+  background-color: white;
+  color: rgb(0, 0, 0);
+}
+
+img {
+  width: 100%;
+  height: auto;
+  min-width: 25px;
+  max-width: 100px;
+}
+
+.img1{
+    width: 100%;
+    height: auto;
+    min-width: 25px;
+    max-width: 100px;
+}
+
+.dot {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    text-align: right;
+  }
